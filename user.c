@@ -3,15 +3,14 @@
 #include <string.h>
 
 typedef struct {
-     unsigned int id;
-     char nama [100];
-     char merek[100];
-     char model [100];
-     unsigned int tahun;
-     unsigned int jumlah;
- } AlatLab;
-
+unsigned int id;
+char nama [100];
+char merek [100];
+char model [100];
+unsigned int tahun;
+unsigned int jumlah;
+} AlatLab;
 int main() {
-    print("Program User Laboratorium\n");
-    return 0;
+print("Program User Laboratorium\n");
+return 0;
 }
